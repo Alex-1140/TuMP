@@ -1,0 +1,116 @@
+﻿   Qt/MSBuild: 3.4.0.1
+  Reading Qt configuration (C:/Qt/6.9.0/msvc2022_64/bin/qmake)
+   Qt: 6.9.0
+  dbclient.cpp
+  loginwindow.cpp
+  main.cpp
+  mainwindow.cpp
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x170, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x172, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x175, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x177, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x17a, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x17d, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x181, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x2c2, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x2c4, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x2c7, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x2c9, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x2cc, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x2cf, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x2d2, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x447, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x449, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x44c, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x44f, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x76e, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x770, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x773, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x98a, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x98d, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x991, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x995, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x998, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x99b, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x99e, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x9a2, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x9a5, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x9a8, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x9ab, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x9ae, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x9b1, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x9b4, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x9b7, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x9bb, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbad, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbae, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbb1, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbb4, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbb8, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbbb, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbbe, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbc1, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbc4, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbc7, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbca, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbce, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbcf, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbd2, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbd5, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbd8, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbdb, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbde, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbe9, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbec, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbef, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbf3, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbf6, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbf9, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbfb, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xbff, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xc10, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xc13, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xc16, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xc1a, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xc1d, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xc1e, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.cpp(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0xc21, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.h(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x23d, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+  (компиляция исходного файла "loginwindow.cpp")
+  
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.h(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x23e, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+  (компиляция исходного файла "loginwindow.cpp")
+  
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.h(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x241, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+  (компиляция исходного файла "loginwindow.cpp")
+  
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.h(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x244, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+  (компиляция исходного файла "loginwindow.cpp")
+  
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.h(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x23d, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.h(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x23e, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.h(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x241, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.h(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x244, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+  (компиляция исходного файла "main.cpp")
+  
+  moc_loginwindow.cpp
+  moc_mainwindow.cpp
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.h(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x23d, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+  (компиляция исходного файла "Debug/moc_loginwindow.cpp")
+  
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.h(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x23e, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+  (компиляция исходного файла "Debug/moc_loginwindow.cpp")
+  
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.h(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x241, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+  (компиляция исходного файла "Debug/moc_loginwindow.cpp")
+  
+C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\loginwindow.h(1,1): warning C4828: Файл содержит знак, начинающийся со смещения 0x244, который является недопустимым в текущей исходной кодировке (кодовая страница 65001).
+  (компиляция исходного файла "Debug/moc_loginwindow.cpp")
+  
+  Singletone.vcxproj -> C:\Users\apple\Desktop\ТиМП\ClientSingletone\Singletone\debug\Singletone.exe

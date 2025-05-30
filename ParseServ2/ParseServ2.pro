@@ -7,9 +7,11 @@ TEMPLATE = app
 
 SOURCES += \
     main.cpp \
-    mytcpserver.cpp
+    mytcpserver.cpp \
+    server_db.cpp
 
 CONFIG += c++17
 
 HEADERS += \
-    mytcpserver.h
+    mytcpserver.h \
+    server_db.h

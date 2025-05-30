@@ -5,15 +5,12 @@
 #include <QTcpSocket>
 #include <QMap>
 #include <QSet>
-#include <QVector>
-#include <limits>
+#include "server_db.h" // Только заголовочный файл
 
-class MyTcpServer : public QTcpServer
-{
+    class MyTcpServer : public QTcpServer {
     Q_OBJECT
-
 public:
-    explicit MyTcpServer(QObject *parent = nullptr);
+    MyTcpServer(QObject *parent = nullptr);
     void startServer();
 
 protected:
@@ -24,12 +21,12 @@ private slots:
     void clientDisconnected();
 
 private:
-    QMap<int, QMap<int, double>> graph; // Граф: u -> {v -> вес}
-
-    QMap<int, double> findShortestPaths(int src);
-    QVector<int> getUniqueNodes();
+    QMap<int, QMap<int, double>> graph;
+    QMap<QTcpSocket*, QString> authenticatedUsers;
     void sendWelcomeMessage(QTcpSocket *socket);
     void processCommand(QTcpSocket *socket, const QString &commandLine);
+    QMap<int, double> findShortestPaths(int src);
+    QVector<int> getUniqueNodes();
 };
 
 #endif // MYTCPSERVER_H

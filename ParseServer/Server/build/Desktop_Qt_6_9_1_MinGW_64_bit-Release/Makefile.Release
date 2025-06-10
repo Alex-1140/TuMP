@@ -704,7 +704,9 @@ release/server.o: ../../server.cpp ../../server.h \
 		../../../../../../Qt/6.9.1/mingw_64/include/QtCore/qfile.h \
 		../../../../../../Qt/6.9.1/mingw_64/include/QtCore/qfiledevice.h \
 		../../../../../../Qt/6.9.1/mingw_64/include/QtCore/QTextStream \
-		../../../../../../Qt/6.9.1/mingw_64/include/QtCore/QDataStream
+		../../../../../../Qt/6.9.1/mingw_64/include/QtCore/QDataStream \
+		../../../../../../Qt/6.9.1/mingw_64/include/QtCore/QRegularExpression \
+		../../../../../../Qt/6.9.1/mingw_64/include/QtCore/qregularexpression.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\server.o ..\..\server.cpp
 
 release/database.o: ../../database.cpp ../../database.h \

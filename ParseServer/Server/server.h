@@ -25,12 +25,15 @@ private:
     Database db;
     QString vigenereKey = "KEY";
     QString storedKey;
-    QMap<QTcpSocket*, QString> authenticatedUsers; // Отслеживание авторизованных клиентов
-    QString usersFile = "users.conf"; // Файл для хранения пользователей
+    QMap<QTcpSocket*, QString> authenticatedUsers;
+    QString usersFile = "users.conf";
 
     bool isAuthenticated(QTcpSocket* socket);
     void saveUser(const QString& login, const QString& password);
     bool checkUser(const QString& login, const QString& password);
+
+    double evaluateFunction(const QString& expr, double x); // Новый метод для вычисления f(x)
+    QString halfMethod(double a, double b, double epsilon, const QString& expr); // Метод деления пополам
 };
 
 #endif // SERVER_H

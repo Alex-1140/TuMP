@@ -3,6 +3,8 @@
 #include <QFile>
 #include <QTextStream>
 #include <QDataStream>
+#include <QRegularExpression>
+#include <cmath>
 
 Server::Server(QObject* parent) : QObject(parent) {
     std::cout << "Starting server..." << std::endl;
@@ -47,6 +49,59 @@ QString Server::hashWithSha512(const QString& data) {
     return QString(QCryptographicHash::hash(data.toUtf8(), QCryptographicHash::Sha512).toHex());
 }
 
+double Server::evaluateFunction(const QString& expr, double x) {
+    QString expression = expr;
+    expression.replace("x", QString::number(x));
+    bool ok;
+    double result = expression.toDouble(&ok);
+    if (ok) return result;
+
+    // Разбиение с использованием QRegularExpression
+    QStringList parts = expression.split(QRegularExpression("(?=[-+*/^])|(?<=[-+*/^])"), Qt::SkipEmptyParts);
+    double current = 0.0;
+    QString operation = "+";
+    for (const QString& part : parts) {
+        if (part == "+" || part == "-" || part == "*" || part == "/" || part == "^") {
+            operation = part;
+            continue;
+        }
+        double value = part.toDouble(&ok);
+        if (!ok) continue; // Игнорируем некорректные части
+        if (operation == "+") current += value;
+        else if (operation == "-") current -= value;
+        else if (operation == "*") current *= value;
+        else if (operation == "/") current /= value;
+        else if (operation == "^") current = pow(current, value);
+    }
+    return current;
+}
+
+QString Server::halfMethod(double a, double b, double epsilon, const QString& expr) {
+    if (b <= a || epsilon <= 0) {
+        return "ERROR: Invalid interval or epsilon";
+    }
+    double fa = evaluateFunction(expr, a);
+    double fb = evaluateFunction(expr, b);
+    if (fa * fb >= 0) {
+        return "ERROR: Function values at endpoints have same sign";
+    }
+
+    double c = a;
+    while ((b - a) >= epsilon) {
+        c = (a + b) / 2;
+        double fc = evaluateFunction(expr, c);
+        if (fc == 0.0) break; // Точный корень
+        if (fa * fc < 0) {
+            b = c;
+            fb = fc;
+        } else {
+            a = c;
+            fa = fc;
+        }
+    }
+    return "RESULT: Root ≈ " + QString::number(c, 'f', 6);
+}
+
 void Server::handleNewConnection() {
     std::cout << "New connection received..." << std::endl;
     QTcpSocket* clientSocket = tcpServer->nextPendingConnection();
@@ -86,13 +141,15 @@ void Server::handleNewConnection() {
         } else if (!isAuthenticated(clientSocket)) {
             response = "ERROR: Please login first";
         } else if (parts[0] == "ADD_EDGE" && parts.size() == 4) {
-            int u = parts[1].toInt();
-            int v = parts[2].toInt();
-            double w = parts[3].toDouble();
+            bool ok;
+            int u = parts[1].toInt(&ok); if (!ok) { response = "ERROR: Invalid u"; return; }
+            int v = parts[2].toInt(&ok); if (!ok) { response = "ERROR: Invalid v"; return; }
+            double w = parts[3].toDouble(&ok); if (!ok) { response = "ERROR: Invalid w"; return; }
             graph.addEdge(u, v, w);
             response = "OK: Edge added " + QString::number(u) + "-" + QString::number(v) + " W=" + QString::number(w, 'f', 1);
         } else if (parts[0] == "SHORTEST_PATH" && parts.size() == 2) {
-            int src = parts[1].toInt();
+            bool ok;
+            int src = parts[1].toInt(&ok); if (!ok) { response = "ERROR: Invalid src"; return; }
             response = graph.shortestPath(src);
         } else if (parts[0] == "SAVE_DB" && parts.size() == 2) {
             QString filename = parts[1];
@@ -114,11 +171,30 @@ void Server::handleNewConnection() {
             QString computedHash = hashWithSha512(encrypted);
             std::cout << "Computed hash: " << computedHash.toStdString() << ", Stored hash: " << storedKey.toStdString() << std::endl;
             if (computedHash == storedKey) {
-                QString decrypted = vigenereCipher(encrypted, false); // Дешифруем зашифрованный текст
+                QString decrypted = vigenereCipher(encrypted, false);
                 std::cout << "Decrypted '" << encrypted.toStdString() << "' to '" << decrypted.toStdString() << "'" << std::endl;
                 response = "RESULT: " + decrypted;
             } else {
                 response = "ERROR: Key not found";
+            }
+        } else if (parts[0] == "HALF" && parts.size() == 5) {
+            bool ok;
+            double a = parts[1].toDouble(&ok);
+            if (!ok) {
+                response = "ERROR: Invalid a";
+            } else {
+                double b = parts[2].toDouble(&ok);
+                if (!ok) {
+                    response = "ERROR: Invalid b";
+                } else {
+                    double epsilon = parts[3].toDouble(&ok);
+                    if (!ok) {
+                        response = "ERROR: Invalid epsilon";
+                    } else {
+                        QString expr = parts[4];
+                        response = halfMethod(a, b, epsilon, expr);
+                    }
+                }
             }
         } else if (parts[0] == "PRINT_DATA") {
             response = graph.printData();
